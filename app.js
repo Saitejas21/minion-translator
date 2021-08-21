@@ -1,9 +1,9 @@
 var translateButton = document.querySelector("#translate-button");
-var translateInput = document.querySelector("#translate-button");
+var translateInput = document.querySelector("#translate-input");
 var translateOutput = document.querySelector("#translate-output");
 translateButton.addEventListener("click", buttonClickHandler)
 
-var serverurl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverurl = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(input){
     return serverurl+"?"+"text="+input
