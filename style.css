@@ -31,7 +31,7 @@ main {
 
 textarea {
     box-sizing: border-box;
-    display: block;
+    display: inline;
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
@@ -46,7 +46,7 @@ button {
     padding: 1rem 2rem;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: large;
-    pointer-events: auto;
+    cursor:pointer;
 }
 
 
